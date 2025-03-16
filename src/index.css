@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://images.pexels.com/photos/285171/pexels-photo-285171.jpeg?w=1200&h=627&auto=compress&cs=tinysrgb');
+ background-size: cover;  
+/* background-position: center;  /* Optional: to center the image */
+/* background-repeat: no-repeat;   */
+height: 700px;
+width: 100%;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* css for div*/
+myDiv{
+  border: 5px outset rgb(40, 95, 224);
+  background-color: lightblue;
+  text-align: center;
+  height: 200px;
+  width: 500px;
+}
+
+
+.myDiv2{
+   border: 5px outset rgb(40, 95, 224);
+   background-color:lightblue;
+   text-align:center;
+   height: 100%;
+   width: 400px;
+}
+/* css for navigation bar */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* change the link color to #111(black) on hover */
+li a:hover{
+  background-color: #111;
+}
